@@ -1,16 +1,24 @@
-### Hi there 👋
+### Salutations, Wanderer 
 
-<!--
-**raianmr/raianmr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a CSE sophomore based in Dhaka. 
 
-Here are some ideas to get you started:
+- I like working on 
+    - games, 
+    - graphics, 
+    - and servers 
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- I'm currently learning 
+    - Go, 
+    - Unity, 
+    - Vulkan, 
+    - and FastAPI
+
+- I'm looking forward to learning 
+    - Rust, 
+    - Unreal, 
+    - and WebGPU 
+
+- I have experience in 
+    - absolutely nothing worth noting 
+
+There isn't much to showcase on my public profile right now, but I hope to change that soon. 
