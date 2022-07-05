@@ -15,6 +15,7 @@ I'm a CSE sophomore based in Dhaka.
 
 - I'm looking forward to learning 
     - Rust, 
+    - Svelte,
     - Unreal, 
     - and WebGPU 
 
