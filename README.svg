@@ -1,61 +1,63 @@
-    <svg fill="none" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
-        <style>
-            @import url("https://go.googlesource.com/image/+/refs/heads/master/font/gofont/ttfs/Go-Mono.ttf");
+<svg fill="none" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @import url("https://go.googlesource.com/image/+/refs/heads/master/font/gofont/ttfs/Go-Mono.ttf");
 
-            @keyframes rotate {
-                from {
-                    transform: rotate(0deg);
-                }
-
-                to {
-                    transform: rotate(360deg);
-                }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
             }
 
-            .background {
-                animation: rotate ease-in-out 10s infinite;
+            to {
+                transform: rotate(360deg);
             }
+        }
 
-            .container {
-                font: 1.2em "Go Mono";
-                color: darkolivegreen;
-                display: grid;
-                place-items: center;
-                text-align: center;
-                white-space: pre-line;
-            }
+        .background {
+            animation: rotate ease-in-out 30s infinite;
+            fill: url(#stars);
+            opacity: 0.06;
+        }
 
-        </style>
+        .container {
+            font: 1.2em "Go Mono";
+            color: olivedrab;
+            display: grid;
+            place-items: center;
+            text-align: center;
+            white-space: pre-line;
+        }
 
-        <defs>
-            <pattern patternTransform="scale(10)" id="star" width="10" height="10" patternUnits="userSpaceOnUse">
-                <polygon points="0,0 2,5 0,10 5,8 10,10 8,5 10,0 5,2" fill="darkseagreen" />
-            </pattern>
-        </defs>
-        <circle class="background" cx="100%" cy="100%" r="100%" opacity="0.25" fill="url(#star)" />
+    </style>
 
-        <foreignObject width="100%" height="100%">
+    <defs>
+        <pattern patternTransform="scale(10)" id="stars" width="10" height="10" patternUnits="userSpaceOnUse">
+            <polygon points="0,0 2,5 0,10 5,8 10,10 8,5 10,0 5,2" fill="olivedrab" />
+        </pattern>
+    </defs>
+    <circle class="background" cx="100%" cy="100%" r="100%" />
 
-            <body xmlns="http://www.w3.org/1999/xhtml">
-                <div class="container">
-                    <h1>Salutations, Wanderer</h1>
-                    I'm a CSE sophomore based in Dhaka.
+    <foreignObject width="100%" height="100%">
 
-                    I like working on
-                    games | graphics | servers
+        <body xmlns="http://www.w3.org/1999/xhtml">
+            <div class="container">
+                <h1>Salutations, Wanderer</h1>
+                I'm a CSE sophomore based in Dhaka.
 
-                    I'm currently learning
-                    Go | Unity | Vulkan | FastAPI
+                I like working on
+                games | graphics | servers
 
-                    I'm looking forward to learning
-                    Rust | Unreal | WebGPU | Svelte
+                I'm currently learning
+                Go | Unity | Vulkan | FastAPI
 
-                    I have experience in
-                    absolutely nothing worth noting
+                I'm looking forward to learning
+                Rust | Unreal | WebGPU | Svelte
 
-                    There isn't much to showcase on my public profile right now,
-                    but I hope to change that soon.
-                </div>
-            </body>
-        </foreignObject>
-    </svg>
+                I have experience in
+                absolutely nothing worth noting
+
+                There isn't much to showcase on my public profile right now,
+                but I hope to change that soon.
+            </div>
+        </body>
+    </foreignObject>
+</svg>
