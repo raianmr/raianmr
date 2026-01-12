@@ -110,24 +110,11 @@
 
             <body xmlns="http://www.w3.org/1999/xhtml">
                 <h1 id="head">Salutations, Wanderer</h1>
-                <p id="para">I'm a CSE sophomore based in Dhaka.
+                <p id="para">I'm a CSE graduate based in Dhaka.
 
                     I like working on
-                    games | graphics | servers
-
-                    I'm currently learning
-                    Go | Unity | GLSL | FastAPI
-
-                    I'm looking forward to learning
-                    Rust | Unreal | WebGPU | Svelte
-
-                    I have experience in
-                    absolutely | nothing | worth | noting
-
-                    There isn't much to showcase on my
-                    public profile right now.
-
-                    But I hope to change that soon.</p>
+                    servers | pipelines | games | graphics
+                </p>
             </body>
         </foreignObject>
     </g>
